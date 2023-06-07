@@ -1,0 +1,43 @@
+.user-box {
+  padding: 20px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.user-box .delete {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+
+  border-radius: 50%;
+  top: -10px;
+  right: 0;
+  cursor: pointer;
+}
+.user-box:nth-child(odd) .delete {
+  background-color: #f6d1cb;
+}
+.user-box:nth-child(even) .delete {
+  background-color: dodgerblue;
+}
+.user-box:nth-child(odd) {
+  border-bottom: 3px solid #f6d1cb;
+}
+.user-box:nth-child(even) {
+  border-bottom: 3px solid dodgerblue;
+}
+.active {
+  /* background-color: #f6d1cb; */
+}
+
+/* .user-box.active {
+  background-color: red;
+} */
